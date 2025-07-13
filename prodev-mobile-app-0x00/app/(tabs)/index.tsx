@@ -18,6 +18,9 @@ export default function HomeScreen() {
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">First App Created!</ThemedText>
+        <ThemedText type="title" style={{ color: '#0A7EA4' }}>
+          ProDev Mobile App Starter
+        </ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
